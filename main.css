@@ -31,11 +31,6 @@ body{
     overflow: hidden;
 }
 
-.image-container {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    overflow: hidden;
-}
 
 .image-container img {
     width: 100%;
@@ -165,6 +160,12 @@ body{
         width: 700px;
         height:270px;
         overflow: visible;
+    }
+
+    .image-container {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        overflow: hidden;
     }
 
     .image-container figure {
